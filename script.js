@@ -93,11 +93,11 @@ for (const option of quizOptions) {
             makePointRed();
         } else {
             document.getElementById(option.resultId).textContent = "🙅‍♂️";
+            button.nextElementSibling.style.color = "gray";
         }
         button.disabled = true; //連打させない
     });
 }
-
 //下まで行ったときの挨拶表示
 const displayGreeting = document.getElementById("greeting");
 
