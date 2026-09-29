@@ -26,8 +26,16 @@ h1 {
     line-height: 2.5;
 }
 
-#myname,
+#myname {
+    margin-bottom: 12px;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: 1px #131313;
+    font-size: 1.6rem
+}
+
 #andquiz {
+    margin-top: 12px;
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: 1px #131313;
