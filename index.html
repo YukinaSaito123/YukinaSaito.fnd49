@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Presentation</title>
+</head>
+<body>
+
+<!--壁紙の設定-->
+<div class="bg_pattern Paper_v2"></div>
+
+<!--Header-->
+<header>
+  <h1>
+    <span id="myname">さいとう ゆきな</span><br>
+    自己紹介とキャリアの転機<br>
+    <span id="andquiz">& クイズ</span>
+  </h1>
+</header>
+
+<main class="section">
+
+<!--My Profile-->
+<section class="profile-section">
+
+  <details>
+    <summary>
+    <h2 id="title-myprofile">PROFILE</h2>
+    </summary>
+
+    <article>
+      <ul class="profile-items">
+        <p>名前：　さいとう ゆきな</p> 
+        <p>拠点：　東京都</p>
+        <p>趣味：　お笑い、絵画鑑賞、トランポリン<br>
+          　　　　リバーボード、百貨店を徘徊</p>
+      </ul>
+    </article>
+  </details>
+</section>
+
+
+
+<!--My History-->
+<section class="history-section">
+
+<details>
+  <summary>
+  <h2 id="title-myhistory">CAREER</h2>
+  </summary>
+
+  <div class = "accordion-content">
+    <!--2015-->
+      <article class="history-item">
+      <h3 class="item">2015年 - トヨタ自動車に入社</h3>
+      <p>
+      レクサスのブランディング部門に配属。<br>
+      同僚の半数以上がICTで、10カ国以上の外国籍メンバーと働き、<br>
+      日本にいながら様々な文化・価値観を吸収する。
+      </p> 
+      </article>
+
+    <!--2020-->
+      <article class="history-item">
+      <h3 class="item">2020年 - リモートワーク開始</h3>
+      <p>
+      コロナ禍で働き方が一変。<br>
+      自宅で仕事をする日々に限界を感じ始め、<br>
+      自分は何をしたいのか考える迷走期に突入する。
+      </p>
+      </article>
+
+    <!--2021-->
+      <article class="history-item">
+      <h3 class="item">2021年 - Woven by Toyotaへ出向</h3>
+      <p>
+      変化を求め、「一緒に泥水啜りましょう」の誘い言葉と共に<br>未経験の人事部へ。<br>
+      業務のシステム移行を推進するなかで、プログラミングに出会う。
+      </p>
+      </article>
+
+    <!--2026-->
+      <article class="history-item">
+      <h3 class="item">2026年 - 産休・育休から復帰</h3>
+      <p>
+      復帰後、業務でのAI利用が当たり前な状況を目の当たりにし、<br>
+      「スキルをアップデートしたい」という思いから<br>
+      直感的にDIGカレッジに飛び込む。
+      </p>
+      </article>
+  </div>
+</details>
+</section>
+
+
+
+<!--Quiz-->
+<section class="quiz-section">
+<div class="quiz-header">
+
+<details>
+<summary>
+ <h2 id="title-quiz">QUIZ</h2>
+ </summary>
+
+    <div id = score-set>
+    <span class="score-label">正解数</span>
+    <div class="score-box"> 
+    <span class="score-value"><span id="score">0</span>/3</span>
+    </div>
+    </div>
+        <!--Quiz 1-->
+        <div class="quiz-item">
+          <h3>第1問目</h3>
+          <p class="questions">本社での新人研修で、担当者に「10年に一度」と言われた<br><strong>「まさかのハプニング」</strong>とは？</p>
+
+          <div class="options">
+            <button id="q1-button1" class="button-q1">1</button>
+            <span class="option-text">貸与PCを落として破壊した</span>
+            <span id="result-q1-1" class="result"></span><br>
+
+            <button id="q1-button2" class="button-q1">2</button>
+            <span class="option-text">高熱で病院に運ばれた</span>
+            <span id="result-q1-2" class="result"></span><br>
+
+            <button id="q1-button3" class="button-q1">3</button>
+            <span class="option-text">神戸まで寝過ごし大遅刻した</span>
+            <span id="result-q1-3" class="result"></span><br>
+          </div>
+        </div>
+
+        <!--Quiz 2-->
+        <div class="quiz-item">
+            <h3>第2問目</h3>
+            <p class="questions">コロナ禍の中、突如踏み切った<strong>「驚きの決断」</strong>とは？</p>
+
+            <div class="options">
+              <button id="q2-button1" class="button-q2">1</button>
+              <span class="option-text">10kgダイエット</span>
+              <span id="result-q2-1" class="result"></span><br>
+
+              <button id="q2-button2" class="button-q2">2</button>
+              <span class="option-text">ダイビングの資格取得</span>
+              <span id="result-q2-2" class="result"></span><br>
+
+              <button id="q2-button3" class="button-q2">3</button>
+              <span class="option-text">地方移住</span>
+              <span id="result-q2-3" class="result"></span>
+            </div>
+        </div>
+
+        <!--Quiz 3-->
+        <div class="quiz-item">
+          <h3>第3問目</h3>
+          <p class="questions">3年間、会社員と並行してやっていた<strong>「裏の顔」</strong>とは？</p>
+
+          <div class="options">
+            <button id="q3-button1" class="button-q3">1</button>
+            <span class="option-text">シンガー</span>
+            <span id="result-q3-1" class="result"></span><br>
+
+            <button id="q3-button2" class="button-q3">2</button>
+            <span class="option-text">ボウラー</span>
+            <span id="result-q3-2" class="result"></span><br>
+
+            <button id="q3-button3" class="button-q3">3</button>
+            <span class="option-text">ダンサー</span>
+            <span id="result-q3-3" class="result"></span><br>
+          </div>
+        </div>
+  </details>
+</main>
+
+<!--footer-->
+<footer>
+<p id="greeting">最後までご覧いただきありがとうございました！</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
